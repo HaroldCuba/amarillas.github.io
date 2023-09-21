@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FELIZ DIA DE LA AMISTAD</title>
+    <style>
+        /* Establece el video como fondo y ajusta su tamaño */
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1; /* Coloca el video detrás de otros elementos */
+        }
+
+        /* Estilo para el contenido en la página */
+        .content {
+            position: relative;
+            z-index: 1; /* Asegura que el contenido esté en frente del video */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Añade un fondo semitransparente al contenido para mejorar la legibilidad */
+        .content::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+            z-index: -1; /* Coloca el fondo detrás del video */
+        }
+    </style>
+</head>
+<body>
+    <!-- Utiliza la etiqueta de video para el fondo -->
+    <video autoplay loop muted>
+        <source src="video/flores.mp4" type="video/mp4">
+    </video>
+
+    <!-- Contenido de la página -->
+    <div class="content">
+        <h1 style="color: #FFD700;">Feliz Día de la Amistad L.</h1>
+        
+        <p>
+            Tu amistad es como un jardín de flores amarillas,
+            llenando de alegría y luz mis días grises.
+            En este día especial, quiero celebrar
+            la belleza de nuestra amistad,
+            que es un regalo que atesoro con cariño.
+        </p>
+        <p>
+            Que nuestra amistad florezca y crezca
+            como estas hermosas flores amarillas,
+            llenando de color y amor nuestras vidas.
+            Gracias por ser mi amiga y compañera fiel.
+            ¡Feliz Día de la Amistad!
+        </p>
+
+///**************************************************/////
+
+        <p>
+            "Tu cuerpo, un lienzo de gracia y armonía,
+Donde cada curva es una melodía.
+Las estrellas en el cielo se sienten celosas,
+Pues en ti encuentro la perfección hermosa.
+</p>
+<p>
+Tus ojos, luceros que iluminan mi ser,
+Y tu sonrisa, un sol que hace amanecer.
+Cada gesto tuyo, una danza en el viento,
+Eres un poema viviente, un gran aliento.
+</p>
+<p>
+Tus formas son un verso, una canción,
+En cada mirada, hallamos pasión.
+No existe pincel que pueda retratarte,
+Eres un sueño en el que quiero adentrarme.
+</p>
+<p>
+En tu figura, el arte se hace real,
+Y en cada paso, un misterio sin igual.
+Que sepas que en ti encuentro perfección,
+Eres la encarnación de la inspiración."
+        </p>
+    </div>
+</body>
+</html>
+
+
